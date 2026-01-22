@@ -94,7 +94,6 @@ int main()
                 cout << "\n--- Add New Item ---" << endl;
                 cout << "Enter ID: ";
                 cin >> id;
-                cin.ignore();
 
                 cout << "Enter Item Name: ";
                 getline(cin, name);
